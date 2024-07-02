@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.layout{
+    width: 375px
+    
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5%;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 600, 700;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.city{
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+}
+
+.button{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px auto;
+    border: none;
+}
